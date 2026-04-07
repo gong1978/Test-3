@@ -1,0 +1,6 @@
+username,password,mockResult,expectedView,expectedMessage,expectedError
+,,false,input,,用户名不能为空！
+testuser,,false,input,,密码不能为空！
+,123456,false,input,,用户名不能为空！
+existinguser,123456,false,input,,"注册失败,该用户名已存在！"
+newuser,123456,true,success,注册成功！,

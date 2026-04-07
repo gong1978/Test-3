@@ -1,0 +1,6 @@
+username,password,mockResult,expectedView,expectedError
+,,false,input,用户名不能为空！
+test,,false,input,密码不能为空！
+,123456,false,input,用户名不能为空！
+wronguser,wrongpwd,false,input,登录失败！
+testuser,correctpwd,true,success,
